@@ -1,48 +1,62 @@
-body {
-  /* background-color: #000; */
-  color: #fff;
-  background-image: url(./img/home/home-background.png);
-  /* background: linear-gradient(to right, #040404, #000000, #656565); */
-}
-
-.App {
-  height: 100vh;
-  width: 100%;
-  /* opacity: 90%;
-  background: #000000; */
+.about {
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .App {
-    font-size: small;
+  .about {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .about-content {
+    margin: 0 0 0 0;
+    margin-top: 10vh;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .App {
-    font-size: medium;
+  .about {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .about-content {
+    margin: 0 0 0 0;
+    margin-top: 20vh;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .App {
-    font-size: large;
+  .about {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .about-content {
+    margin: 0 0 0 0;
+    margin-top: 20vh;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .App {
-    font-size: large;
+  .about {
+    margin: 0 5rem 0 5rem;
+  }
+
+  .about-content {
+    margin: 0 10rem 0 10rem;
+    margin-top: 30vh;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .App {
-    font-size: x-large;
+  .about {
+    margin: 0 5rem 0 5rem;
+  }
+
+  .about-content {
+    margin: 0 10rem 0 10rem;
+    margin-top: 30vh;
   }
 }

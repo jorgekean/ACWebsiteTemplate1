@@ -1,48 +1,54 @@
-body {
-  /* background-color: #000; */
-  color: #fff;
-  background-image: url(./img/home/home-background.png);
-  /* background: linear-gradient(to right, #040404, #000000, #656565); */
+.service {
+  height: 50vh;
 }
 
-.App {
-  height: 100vh;
-  width: 100%;
-  /* opacity: 90%;
-  background: #000000; */
+.content-service img {
+  /* height: 200px; */
+}
+
+.content-service img {
+  width: 200px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .App {
-    font-size: small;
+  .content-service {
+    width: 100%;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .App {
-    font-size: medium;
+  .content-service {
+    width: 90%;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .App {
-    font-size: large;
+  .content-service {
+    width: 75%;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .App {
-    font-size: large;
+  .content-service {
+    width: 65%;
+  }
+
+  .content-service div {
+    width: 450px;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .App {
-    font-size: x-large;
+  .content-service {
+    width: 65%;
+  }
+
+  .content-service div {
+    width: 450px;
   }
 }

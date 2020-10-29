@@ -1,0 +1,22 @@
+#header .logo img {
+  max-height: 70px !important;
+}
+
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: rgba(248, 103, 6, 0.945);
+}
+
+.featured-services .icon i {
+  color: rgba(248, 103, 6, 0.945);
+  font-size: 36px;
+}
+
+.featured-services .description {
+  font-size: 18px !important;
+}
+
+.featured-services .title {
+  font-size: 22px !important;
+}

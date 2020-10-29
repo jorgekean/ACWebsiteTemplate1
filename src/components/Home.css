@@ -1,0 +1,101 @@
+.home {
+  color: #fff;
+  height: 100%;
+}
+
+.home-background {
+  height: 100%;
+  width: 100%;
+}
+
+.explore {
+  padding-top: 8rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .home-content img {
+    height: 250px;
+  }
+
+  .home h3 {
+    font-size: 0.75rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .home-content img {
+    height: 300px;
+  }
+
+  .home h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .home-content img {
+    height: 350px;
+  }
+
+  .home h3 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .home-content img {
+    height: 400px;
+  }
+
+  .home h3 {
+    font-size: 1.75rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .home-content img {
+    height: 400px;
+  }
+
+  .home h3 {
+    font-size: 1.75rem;
+  }
+}
+
+/*
+.stage {
+  border-bottom: 3px solid #444;
+  display: flex;
+  height: 330px;
+  width: 100%;
+}
+.box {
+
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+
+}
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+*/

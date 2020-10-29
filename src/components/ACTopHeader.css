@@ -1,0 +1,58 @@
+.fixed-navigation {
+  font-family: "Space Mono";
+  width: 90px;
+  height: 280px;
+  padding: 0;
+  border: none;
+  background: #000;
+  position: fixed;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  z-index: 11;
+  color: #fff;
+}
+
+.fixed-navigation i {
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  text-align: right;
+  transform: rotate(-90deg) translateX(-20px) translateY(-36px);
+  width: 70px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .top-header {
+    margin-left: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .top-header {
+    margin-left: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .top-header {
+    margin-left: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .top-header {
+    margin-left: 3rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .top-header {
+    margin-left: 5rem;
+  }
+}
